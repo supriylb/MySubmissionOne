@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.MySubmissionOne" parent="Theme.Material3.Light.NoActionBar">
+        <item name="actionOverflowButtonStyle">@style/MyOverflowButtonButtonStyle</item>
+    </style>
+
+    <style name="MyOverflowButtonButtonStyle" parent="Widget.Material3.Search.ActionButton.Overflow">
+        <item name="tint">?attr/colorOnPrimary</item>
+    </style>
+
+</resources>
